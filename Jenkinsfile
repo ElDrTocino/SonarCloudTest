@@ -26,7 +26,7 @@ pipeline {
             steps {
                 // Realiza el análisis del proyecto con SonarQube Scanner
                 // Asegúrate de tener instalado el plugin SonarQube Scanner en Jenkins
-                withSonarQubeEnv() {
+                withSonarQubeEnv('SonarCloud') {
                     sh './gradlew sonar'
                 }
             }
