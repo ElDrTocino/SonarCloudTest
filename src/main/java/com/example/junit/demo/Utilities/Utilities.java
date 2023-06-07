@@ -10,9 +10,4 @@ public class Utilities {
         List<String> names = Arrays.asList("Walter","Ulises","Hugo","Alvaro");
         return names.contains(name);
     }
-
-    public int sum(int a, int b){
-        int total = a + b;
-        return total;
-    }
 }
